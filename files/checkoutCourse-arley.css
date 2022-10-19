@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    --black: #000000;
+    font-family: "Lato", sans-serif;
+}
+body#checkoutMainContainer{
+    padding: 0;
+}
+h1#cart-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000;
+    margin-bottom: 1rem;
+}
+.cart{
+    border: 1px solid #ccc;
+}
+.full-cart .cart table tbody tr{
+    padding: 1.5rem 0;
+    margin: 0;
+}
+.product-name a{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: var(--black);
+}
+.full-cart .cart table tbody tr td.product-name .seller{
+    display: none;
+}
+.product-image img {
+    color: transparent;
+    height: 45px;
+    max-width: 45px;
+    width: 45px;
+}
+.full-cart .cart table tbody tr td.quantity input{
+    width: 14px;
+    height: 15px;
+    padding: .25rem .375rem;
+    border-radius: 0;
+}
+.icon-minus-sign:before,
+.icon-plus-sign:before{
+    transform: scale(1.3);
+    padding: 0 .15rem;
+}
+.span.new-product-price{
+    font-size: 12px;
+    line-height: 20px;
+    color: var(--black);
+}
+.item-remove{
+    position: relative;
+}
+i.icon.icon-remove.item-remove-ico::before{
+    content: "Eliminar";
+    position: absolute;
+    bottom: -5.65rem;
+    right: .4rem;
+    font-size: 11px;
+    letter-spacing: 0.4px;
+    font-family: 'Lato', sans-serif;
+    color: #AD0000;
+}
+.srp-content.onda-v1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2.srp-main-title.mt0.mb0.f3.black-60.fw4{
+    font-family: "Lato-Bold", sans-serif;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    text-align: center;
+}
+p.srp-description.mw5 {
+    font-family: "Lato", sans-serif;
+    font-size: 0.75rem;
+    text-align: center;
+    line-height: normal;
+}
+button#shipping-calculate-link{
+    background: #E6E6E6;
+    color: #4D4D4D;
+    margin-bottom: 21px;
+}
+input#cart-coupon{
+    border-radius: 0;
+}
+button#cart-coupon-add{
+    border: 1px solid #AD0000;
+    background: #DC0022;
+    font-size: 13px;
+    font-family: "Lato", sans-serif;
+    margin-left: -6px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 0;
+}
+.coupon-label label{
+    font-size: 13px;
+}
+.full-cart .totalizers tfoot td{
+    font-size: 13px !important;
+    font-weight: 700;
+}
+.accordion-inner table.table{
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+a#cart-choose-more-products{
+    font-size: 0;
+}
+a#cart-choose-more-products::before{
+    content: "Quiero elegír más productos";
+    text-indent: 0;
+    position: absolute;
+    right: .75rem;
+    font-size: 13px;
+    color: #DC0022;
+}
+a#cart-to-orderform{
+    border-radius: 0;
+    background: #DC0022;
+    text-transform: uppercase;
+}
+.clearfix.pull-right.cart-links.cart-links-bottom.hide{
+    width: 100%;
+}
+
+/*LOGIN*/
+h1#orderform-title{
+    margin: 1rem auto 0 auto;
+    font-size: 16px !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000;
+    font-weight: normal;
+    text-align: center;
+}
+a#orderform-to-cart{
+    font-size: 11px;
+    color: #4D4D4D;
+    padding: 6px 8px;
+    text-decoration: none;
+}
+h3.client-pre-email-h span{
+    font-size: 16px;
+    color: #000;
+    font-weight: normal !important;
+}
+h3.client-pre-email-h small{
+    font-size: 16px;
+    color: #000;
+    font-weight: bold !important;
+}
+input#client-pre-email{
+    font-size: 14px;
+    height: 40px !important;
+    border: 1px solid #ccc;
+    color: #4D4D4D;
+    border-radius: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    outline: none;
+    padding: 0 15px;
+    box-shadow: none;
+    width: 95% !important;
+}
+button#btn-client-pre-email{
+    position: relative;
+    width: 95%;
+    height: 40px;
+    right: auto;
+    top: auto;
+    margin: 0.5rem auto 0;
+    letter-spacing: 0.04rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: none;
+    background-color: #DC0022;
+    background-image: none;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+button#btn-client-pre-email:hover{
+    background-color: #000;
+}
+/*END LOGIN*/
+
+/*Step Personal Data*/
+.step.accordion-group.client-profile-data.active{
+    border: 1px solid #000;
+    margin: 0 0.5rem;
+    padding: 0 .25rem;
+}
+.corporate-hide-link a{
+    color: #4D4D4D;
+    font-size: 14px;
+    text-decoration: none;
+}
+button#go-to-shipping{
+    font-size: 1rem;
+    letter-spacing: 0.04rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: none;
+    background-color: #DC0022;
+    background-image: none;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+.step.accordion-group.client-profile-data.filled{
+    margin: .5rem;
+    padding: .3rem;
+    border: 1px solid #f2f2f2;
+    border-radius: 0;
+}
+a#is-not-me{
+    visibility: hidden;
+}
