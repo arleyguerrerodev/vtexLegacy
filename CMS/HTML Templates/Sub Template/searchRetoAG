@@ -1,0 +1,13 @@
+<fieldset class="busca">
+  <legend>Buscar</legend>
+  <label>Busca por nombre, código categoría</label>
+  <input type="hidden" id="ftDept0de9269bf4284a1abdfc2e0406042fa6" value="" />
+  <select id="" style="display: none;">
+    <option value="">Todo o site</option>
+    <option value="1000000">Integracao</option>
+    <option value="1">Eletrodomésticos</option>
+    <option value="3">Moda</option>
+  </select>
+  <input id="ftDept0de9269bf4284a1abdfc2e0406042fa6" class="fulltext-search-box ui-autocomplete-input" type="text" size="20" accesskey="b" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true"/>
+  <input id="ftDept0de9269bf4284a1abdfc2e0406042fa6" type="button" value="Buscar" class="btn-buscar" />
+</fieldset>
